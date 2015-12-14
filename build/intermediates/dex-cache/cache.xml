@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\raven\Documents\GitHub\DailyAccount\[.market_licensing.]\[.market_licensing.].jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d6cb834333c3e403c33b35615342d97cf4762425">
+        <dex dex="C:\Users\raven\Documents\GitHub\DailyAccount\app\build\intermediates\pre-dexed\debug\[.market_licensing.]-df997be5436c4b088b7d9334ca68098b43e390c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\raven\Documents\GitHub\DailyAccount\achartengine-0.7.0\achartengine-0.7.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f51933deafdd1ffc8f3a2d7214260f124dd10af6">
+        <dex dex="C:\Users\raven\Documents\GitHub\DailyAccount\app\build\intermediates\pre-dexed\debug\achartengine-0.7.0-06c9876d4c553cad24a891c7433446c774dcdcbb.jar" />
+    </item>
+    <item
+        jar="C:\Users\raven\Documents\GitHub\DailyAccount\[.market_licensing_library.]\[.market_licensing_library.].jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ab1726acde064656d732eaf18496ee8bf75eacbc">
+        <dex dex="C:\Users\raven\Documents\GitHub\DailyAccount\app\build\intermediates\pre-dexed\debug\[.market_licensing_library.]-78cff576c7084e87ffabae624a667b8b024a26ba.jar" />
+    </item>
+
+</items>

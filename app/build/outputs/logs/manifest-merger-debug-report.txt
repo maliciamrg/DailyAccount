@@ -1,0 +1,72 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:3:7-58
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:5:7-32
+	android:versionCode
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:5:33-63
+uses-sdk
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:7:9-47
+	android:targetSdkVersion
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:7:19-44
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:8:5-20:19
+	android:label
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:8:55-87
+	android:icon
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:8:18-54
+activity#com.malicia.mrg.android.apps.dailyaccount.DailyAccount
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:9:9-14:20
+	android:label
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:9:19-51
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:9:52-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:11:17-69
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:12:17-77
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:12:27-74
+activity#com.malicia.mrg.android.apps.dailyaccount.OperationEdition
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:15:19-50
+activity#com.malicia.mrg.android.apps.dailyaccount.Param
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:16:9-42
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:16:19-39
+activity#com.malicia.mrg.android.apps.dailyaccount.ParamCompte
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:17:9-48
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:17:19-45
+activity#com.malicia.mrg.android.apps.dailyaccount.Graphique_Budget
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:18:9-53
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:18:19-50
+activity#org.achartengine.GraphicalActivity
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:19:9-71
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:19:19-68
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\raven\Documents\GitHub\DailyAccount\app\src\main\AndroidManifest.xml:22:22-70

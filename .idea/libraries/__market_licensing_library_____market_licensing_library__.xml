@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="[.market_licensing_library.].[.market_licensing_library.]">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/[.market_licensing_library.]/[.market_licensing_library.].jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

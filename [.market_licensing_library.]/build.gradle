@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('[.market_licensing_library.].jar'))

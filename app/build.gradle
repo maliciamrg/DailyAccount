@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 8
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.malicia.mrg.android.apps.dailyaccount"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':achartengine-0.7.0')
+    compile project(':[.market_licensing.]')
+    compile project(':[.market_licensing_library.]')
+}

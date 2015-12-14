@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:baselineAligned="false" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/Parametre_compte" android:layout_gravity="center_horizontal"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView7" android:layout_height="wrap_content" android:text="@string/Nom"></TextView>
+        <EditText android:layout_width="match_parent" android:text="EditText" android:layout_height="wrap_content" android:id="@+id/Nom_Compte"></EditText>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/Salaire_mens"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="match_parent">
+        <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Montant"></TextView>
+        <EditText android:layout_width="match_parent" android:text="EditText" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/MtSalaireMensuel"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout4" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Jour_de_Paye"></TextView>
+        <EditText android:layout_width="match_parent" android:text="EditText" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/ValJourDePaye"></EditText>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/Prelevement_mens"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Montant"></TextView>
+        <EditText android:layout_width="match_parent" android:text="EditText" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/MtPrelevementMensuel"></EditText>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/epargne_mens"></TextView>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Montant" android:id="@+id/Trxtvirw7"></TextView>
+        <EditText android:text="EditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number" android:id="@+id/MtAEpargner"></EditText>
+    </LinearLayout>
+    <TextView android:text="@string/Budget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView9"></TextView>
+	<LinearLayout android:id="@+id/tableLayout2" android:layout_width="wrap_content" android:layout_height="match_parent" android:orientation="vertical">
+    	<ListView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/android:list"></ListView>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/raven/Documents/GitHub/DailyAccount/app/src/main/res/layout/param_compte.xml -->

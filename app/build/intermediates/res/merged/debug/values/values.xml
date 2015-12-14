@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/raven/Documents/GitHub/DailyAccount/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Budget">Budget</string>
+    <string name="Compte">Account</string>
+    <string name="Edit_Param">Edit Param</string>
+    <string name="Graph">Graph</string>
+    <string name="Jour_de_Paye">Payday</string>
+    <string name="Liste_des_Budget">Budget List</string>
+    <string name="Montant">Amount</string>
+    <string name="Montant_Budget">Budget amount</string>
+    <string name="Nom">Name</string>
+    <string name="Nom_Budget">Budget name</string>
+    <string name="Param_nb_jour_graph">nb day graph</string>
+    <string name="Parametre_compte">Account settings</string>
+    <string name="Prelevement_mens">Recurring Billing</string>
+    <string name="Salaire_mens">Monthly pay</string>
+    <string name="TODO">TODO</string>
+    <string name="amount">Amount</string>
+    <string name="app_name">DailyAccount</string>
+    <string name="confirm">Confirm</string>
+    <string name="date">Date</string>
+    <string name="edit_note">Edit Operation </string>
+    <string name="epargne_mens">Monthly savings to realize</string>
+    <string name="exportout">Can not Export</string>
+    <string name="forward">Next Screen</string>
+    <string name="images">Type</string>
+    <string name="jour">Day</string>
+    <string name="memo">Memo</string>
+    <string name="menu_Raz_Param">Raz Param</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_export_all">Export all</string>
+    <string name="menu_import_all">Import_all</string>
+    <string name="menu_insert">Add Operation </string>
+    <string name="mois">Month</string>
+    <string name="no_notes">No Operation Yet</string>
+    <string name="payee">Payee</string>
+</resources>

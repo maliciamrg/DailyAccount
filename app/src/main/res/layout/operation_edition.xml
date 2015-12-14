@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >	
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/date" 
+			android:layout_gravity="center_horizontal"/>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="match_parent" 
+			android:id="@+id/pickDate" 
+			android:text="@string/date">
+		</Button>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/Budget" />
+
+		    <com.malicia.mrg._MySpinner
+		        android:id="@+id/BudgetList"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		       	android:layout_weight="1" />
+
+		</LinearLayout>
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TextView  
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/payee"/>
+
+		<AutoCompleteTextView 
+			android:id="@+id/payee_cash" 
+			android:layout_height="wrap_content" 
+			android:layout_width="match_parent" >
+		    <requestFocus />
+		</AutoCompleteTextView>
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/amount"></TextView>
+		<EditText 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/Amount_cash" android:numeric="signed|decimal" android:inputType="numberDecimal">
+		</EditText>
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content" 
+		android:id="@+id/textView1" 
+		android:text="@string/memo" 
+		android:layout_height="wrap_content">
+		</TextView>
+		<EditText
+		    android:id="@+id/memo_cash"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" android:inputType="text">
+		</EditText>
+
+	</LinearLayout>
+	
+	<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/confirm" android:text="@string/confirm"></Button>
+
+</LinearLayout>
+
